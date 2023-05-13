@@ -63,22 +63,19 @@ https://docs.google.com/presentation/d/13UxMs-f0XtIC67JiRo-EThHj2hmAyObDc222OMGF
 
 | Number | Method | URL                                   | Description     | Request                                                      | Response                                                     |
 | ------ | ------ | ------------------------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1      | `POST` | /api/sign_in                          | 회원가입          | {id, pw} | | 
-| 2      | `POST` | /api/login                            | 로그인           | {id, pw}  | |                                
+| 1      | `POST` | /api/sign_in                          | 회원가입          | {id, pw} | {'msg':'회원가입 완료 💖!'} | 
+| 2      | `POST` | /api/login                            | 로그인           | {id, pw}  | {'msg':'반갑습니다 회원님 💖!'} |                                
 | 3      | `GET`  | /api/login                            | 로그인 정보 조회    |                   |                                                              
 | 4      | `GET`  | /api/foodlist                             | 게시물 전체목록 조회          |                       |                                                              
 | 5      | `GET`  | /api/cate-{weather}-all                         | 날씨 카테고리별 목록 조회   |                     |
-| 6      | `GET`  | /api//cate-{weather}-foodtype                          | 날씨+foodtype 카테고리별 목록 조회  |  | 
-| 7      | `POST` | /api/foodlist                            | 게시물 작성   | {body: formData}
-{weather, foodtype, menu, img, comment} |
+| 6      | `GET`  | /api//cate-{weather}-foodtype                   | 날씨+foodtype 카테고리별 목록 조회  |  | 
+| 7      | `POST` | /api/foodlist                            | 게시물 작성   | {body: formData} {weather, foodtype, menu, img, comment} | {'msg':'게시물 등록완료 💖!'} |
 | 8      | `GET`  | /api/categories                       | 게시물 조회 | {p_id} || 
-| 9      | `PUT`  | /api/post?category_id=카테고리 아이디 | 게시물 수정      |  {body: formData}
-{p_id, weather, foodtype, menu, img, comment}                       ||
-| 10     | `DELETE`| /api/post?category_id=카테고리 아이디 | 게시물 삭제      | {p_id}             | |
-| 11     | `POST` | /api/post?category_id=카테고리 아이디 | 댓글 등록      | {body: formData}
-{p_id, name, comment}                                 | |
+| 9      | `PUT`  | /api/post?category_id=카테고리 아이디 | 게시물 수정      |  {body: formData} {p_id, weather, foodtype, menu, img, comment}                       | {’msg’:'게시물 수정완료 💖!'} |
+| 10     | `DELETE`| /api/post?category_id=카테고리 아이디 | 게시물 삭제      | {p_id}             |{’msg’:'게시물 삭제완료 💖!'} |
+| 11     | `POST` | /api/post?category_id=카테고리 아이디 | 댓글 등록      | {body: formData} {p_id, name, comment} | {'msg': ‘댓글 등록 완료 💖!'}|
 | 12     | `GET`  | /api/post?category_id=카테고리 아이디 | 댓글 조회      | {p_id, c_id}   |  |
-| 12     | `DELETE`  | /api/post?category_id=카테고리 아이디 | 댓글 삭제      | {p_id, c_id}   |  |
+| 12     | `DELETE`  | /api/post?category_id=카테고리 아이디 | 댓글 삭제      | {p_id, c_id}   | {'msg': ‘댓글 삭제 완료 💖!'} |
 
 ## 8. 구현 기능
 
