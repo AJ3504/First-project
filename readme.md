@@ -80,11 +80,14 @@ https://docs.google.com/presentation/d/13UxMs-f0XtIC67JiRo-EThHj2hmAyObDc222OMGF
 ## 8. 구현 기능
 
 ### 1) 로그인 화면
-
+![1](https://github.com/AJ3504/first-project-onalen-/assets/131579657/e23ca0d4-f9aa-4e35-b2bf-fab920018310)
 
 ### 2) 홈 화면
+![2](https://github.com/AJ3504/first-project-onalen-/assets/131579657/41d885fe-932d-493b-8947-929e1964509e)
 
 ### 3) 게시글 입력 FORM
+![3](https://github.com/AJ3504/first-project-onalen-/assets/131579657/a535fba5-f89b-4722-8f35-9b0b36548735)
 
 ### 4) 게시글 모달창
+![4](https://github.com/AJ3504/first-project-onalen-/assets/131579657/b57b2aba-91fc-41c6-a523-1e95744fab6c)
 
